@@ -13,7 +13,7 @@ def generate_custom_password(length, use_symbols):
     return password
 
 print("--- 🔐 Advanced Password Generator ---")
-size = int(input("Enter password length (e.g., 12): "))
+size = int(input("Enter password length: "))
 symbols = input("Include symbols? (y/n): ")
 
 result = generate_custom_password(size, symbols)
